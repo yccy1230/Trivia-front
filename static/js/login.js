@@ -1,8 +1,4 @@
 
-function IbtnEnter_onclick() {
-    checklogin();
-    return false;
-}
 function checklogin() {
     console.log("123");
     if ($("#username").val() == "") {
@@ -27,7 +23,7 @@ function checklogin() {
         contentType: "application/json; charset=utf-8",
         success: function (data) {
             console.log(data);
-            if (data == "200") {
+            if (data === "200") {
                 location.href = "index.aspx";
                 return true;
             }
@@ -42,3 +38,10 @@ function checklogin() {
 
     })
 }
+
+
+$(function(){
+    $("#login-button").click(function(){
+        checklogin();
+    });
+});
