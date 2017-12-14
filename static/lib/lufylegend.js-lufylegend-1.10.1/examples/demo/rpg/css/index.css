@@ -1,0 +1,10 @@
+#player
+{
+    color:black;
+    opacity:0.5;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    text-indent:20px;
+}
