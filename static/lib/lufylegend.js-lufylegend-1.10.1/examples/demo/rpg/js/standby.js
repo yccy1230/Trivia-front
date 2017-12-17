@@ -16,6 +16,7 @@ function standby() {
             success: function (data) {
                 console.log(data);
                 if (data=== "200") {
+                    console.log("12345");
                     location.href = "index.aspx";
                     return true;
                 }
