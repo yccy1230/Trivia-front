@@ -1,3 +1,12 @@
+/**
+ * 循环事件
+ * @param isHero 是否英雄
+ * @param index 人物编号
+ * @param data 图片数据
+ * @param row 图片分割行数
+ * @param col 图片分割列数
+ * @param speed 人物速度
+ **/
 function Character(isHero,index,data,row,col,speed){
     base(this,LSprite,[]);
     var self = this;
@@ -15,10 +24,10 @@ function Character(isHero,index,data,row,col,speed){
     var list = LGlobal.divideCoordinate(data.image.width,data.image.height,row,col);
     //设定人物动画
     self.anime = new LAnimation(this,data,list);
-    /*
-     //调整人物位置
-     //self.anime.y -= 16;
-     */
+	/*
+	 //调整人物位置
+	 //self.anime.y -= 16;
+	 */
     //设定不移动
     self.move = false;
     //在一个移动步长中的移动次数设定
@@ -51,7 +60,7 @@ Character.prototype.onframe = function (){
 
 
 
-    /*if(self.move||(a&&!self.move))self.onmove();*/
+	/*if(self.move||(a&&!self.move))self.onmove();*/
 
     //人物动画播放
     self.anime.onframe();
@@ -117,42 +126,42 @@ Character.prototype.onmove = function () {
         var i=(self.x-16)/64;
         var j=(self.y)/64;
         document.getElementById('ques').innerHTML=map[i][j];
-        /*document.getElementById('lighalert(map[i][j]);t').style.display='block';*/
+		/*document.getElementById('lighalert(map[i][j]);t').style.display='block';*/
         document.getElementById('fade').style.display='block';
         document.getElementById('ques').style.display='block';
 
-        /*document.getElementById('money').style.display='block';*/
-        /*document.getElementById('light').style.display='block';
-         document.getElementById('fade').style.display='block';
+		/*document.getElementById('money').style.display='block';*/
+		/*document.getElementById('light').style.display='block';
+		 document.getElementById('fade').style.display='block';
 
-         document.getElementById('money').style.display='block';
+		 document.getElementById('money').style.display='block';
 
-         document.getElementById('ques').style.display='block';*/
+		 document.getElementById('ques').style.display='block';*/
         var btn=document.getElementById('close');
         btn.onclick= function () {
             count=0;
 
         }
-        /*var chose_btn=document.getElementById('chose_button');
-         var res=document.getElementById('');
-         chose_btn.onclick=function (event){
-         document.getElementById('light').style.display='none';
-         //冒泡处理
-         var id = event.target.id;
-         var show=document.getElementById('neirong');
-         if(id.indexOf('A1')){
-         score++;
-         show.innerHTML="you win"+"now your score is"+score;
-         self.move=true;
-         }
-         else
-         {
-         show.innerHTML="you are closed into prisin";
-         self.move=false;
+		/*var chose_btn=document.getElementById('chose_button');
+		 var res=document.getElementById('');
+		 chose_btn.onclick=function (event){
+		 document.getElementById('light').style.display='none';
+		 //冒泡处理
+		 var id = event.target.id;
+		 var show=document.getElementById('neirong');
+		 if(id.indexOf('A1')){
+		 score++;
+		 show.innerHTML="you win"+"now your score is"+score;
+		 self.move=true;
+		 }
+		 else
+		 {
+		 show.innerHTML="you are closed into prisin";
+		 self.move=false;
 
-         }
+		 }
 
-         }*/
+		 }*/
 
 
 

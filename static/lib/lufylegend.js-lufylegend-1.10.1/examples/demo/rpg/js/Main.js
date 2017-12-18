@@ -101,11 +101,11 @@ function gameInit(event){
     ctrlLayer.addChild(bitmap);
     bitmapdata = new LBitmapData(imglist["e2"]);
     bitmap = new LBitmap(bitmapdata);
-    bitmap.x = 200;
-    bitmap.y = 300;
+    bitmap.x = 280;
+    bitmap.y = 30;
     ctrlLayer.addChild(bitmap);
-    ctrlLayer.x = 800;
-    ctrlLayer.y = 450;
+    ctrlLayer.x = 40;
+    ctrlLayer.y = 160;
     LMouseEventContainer.set(LMouseEvent.MOUSE_DOWN,true);
     LMouseEventContainer.set(LMouseEvent.MOUSE_UP,true);
     //添加点击控制事件
