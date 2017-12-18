@@ -5,7 +5,6 @@ body{
 #table{
 
     width:600px;
-    height:600px;
 }
 .chair{
 
@@ -55,7 +54,7 @@ body{
     width:20%;
     height:100%;
     background-color:gainsboro;
-    margin-top: -600px;
+    margin-top: -246px;
 }
 #info{
      height:50%;
