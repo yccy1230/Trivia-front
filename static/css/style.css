@@ -2,10 +2,14 @@ body{
 	padding: 0;
 	margin: 0;
 	background-color: silver;
+	height:100%;width: 100%
 }
 #main{
-	padding: 30px 30px;
-	background-color: #ffffff;
+	position:relative;
+
+	background-color: rgba(255,255,255,0.4);
+	height:auto;
+	width:100%
 }
 #main > .row{
 	margin-bottom: 30px;
@@ -26,10 +30,10 @@ h5{
 }
 .fec{
 	font-size: 34px;
-	color: #FFB40C;
+	color: white;
 	padding-right: 10px;
 }
 .zlight-hhh{
 	padding-bottom: 10px;
-	border-bottom: 1px solid #FFB40C;
+	border-bottom: 1px solid ;
 }
