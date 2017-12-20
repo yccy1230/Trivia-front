@@ -15,132 +15,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/Main.js">
+      <file leaf-file-name="hall.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/hall.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="278" column="6" lean-forward="true" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
+            <state relative-caret-position="299">
+              <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pre.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/pre.html">
+      <file leaf-file-name="zlight.menu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/zlight.menu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="-3756">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/manage.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="69">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/manage.html">
+      <file leaf-file-name="daohang.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/daohang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1003">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-              <folding>
-                <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pre.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/pre.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+            <state relative-caret-position="253">
+              <caret line="82" column="14" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="82" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/manage.js">
+      <file leaf-file-name="hall.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/hall.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="te.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/te.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layui.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/layui.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="1" column="13336" lean-forward="true" selection-start-line="1" selection-start-column="13336" selection-end-line="1" selection-end-column="13336" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="68" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#td#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Character.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/Character.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="298" column="18" lean-forward="true" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+            <state relative-caret-position="460">
+              <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -158,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>move</find>
       <find>self.move</find>
       <find>close</find>
       <find>3</find>
@@ -188,6 +106,7 @@
       <find>stan</find>
       <find>64</find>
       <find>background-color</find>
+      <find>zlight-nav</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -203,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/Main.js" />
         <option value="$PROJECT_DIR$/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/script.js" />
         <option value="$PROJECT_DIR$/jquery-css3-modal-window/index.html" />
@@ -252,6 +170,9 @@
         <option value="$PROJECT_DIR$/static/css/manage.css" />
         <option value="$PROJECT_DIR$/static/css/layui.css" />
         <option value="$PROJECT_DIR$/static/css/pre.css" />
+        <option value="$PROJECT_DIR$/static/css/hall.css" />
+        <option value="$PROJECT_DIR$/pages/daohang.html" />
+        <option value="$PROJECT_DIR$/pages/hall.html" />
       </list>
     </option>
   </component>
@@ -283,27 +204,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -313,11 +232,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,17 +244,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="jQuery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trivia-front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,11 +286,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="trivia-front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -363,28 +300,30 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jquery-nav20151214" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\nginx-1.12.2\html\trivia-front\pages" />
+      <recent name="D:\nginx-1.12.2\html\trivia-front\static\css" />
+      <recent name="D:\nginx-1.12.2\html\trivia-front\static\image" />
+      <recent name="D:\nginx-1.12.2\html\trivia-front\static" />
+      <recent name="D:\nginx-1.12.2\html\trivia-front\static\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\jQuery-css3hover20161021" />
       <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\image" />
       <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\js" />
       <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\css" />
       <recent name="D:\大三\trivia\trivia-web\src\main\webapp\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\nginx-1.12.2\html\pages" />
-      <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\css" />
-      <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg" />
-      <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib\lufylegend.js-lufylegend-1.10.1\examples\demo\rpg\fonts" />
-      <recent name="D:\大三\trivia\trivia-web\src\main\webapp\static\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,14 +434,15 @@
       <workItem from="1513494458730" duration="17286000" />
       <workItem from="1513525253882" duration="68000" />
       <workItem from="1513598407223" duration="7947000" />
+      <workItem from="1513772320869" duration="3681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137678000" />
+    <option name="totallyTimeSpent" value="141359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2313988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -556,41 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/map1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/mingren.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/npc_ninja.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/p0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/p1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/prepa.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/yizi1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/image/zhuozi.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -701,14 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1513518351630" expanded="true" signature="4630:4721" ph="..." />
-            <marker date="1513518351630" expanded="true" signature="5632:5652" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1210">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-552">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-957">
           <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1785">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="31" column="82" lean-forward="true" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,55 +712,48 @@
         <state relative-caret-position="207">
           <caret line="9" column="65" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="68" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#td#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#td#2;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#td#3;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/Character.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="6854">
           <caret line="298" column="18" lean-forward="true" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/manage.js" />
     <entry file="file://$PROJECT_DIR$/static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/js/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="278" column="6" lean-forward="true" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
+        <state relative-caret-position="6394">
+          <caret line="278" column="6" lean-forward="false" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -908,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/layui.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="23">
           <caret line="1" column="13336" lean-forward="true" selection-start-line="1" selection-start-column="13336" selection-end-line="1" selection-end-column="13336" />
           <folding />
         </state>
@@ -916,20 +792,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1003">
+        <state relative-caret-position="437">
           <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/pre.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="782">
           <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding />
         </state>
@@ -939,6 +815,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/table.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/image/(CKF~}649(24FZKR$1ARXK5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/hall.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/daohang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="82" column="14" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="82" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/zlight.menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3756">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
           <folding />
         </state>
       </provider>
