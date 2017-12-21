@@ -12,7 +12,7 @@ window.onload = function getTables() {
                 if (obj.length == 0) {
                     alert("目前暂无房间开放，请稍后尝试！");
                 } else {
-                    var s= "<div><img class=\"desk\" src=\"../static/image/room.png\" alt=\"#\"/>\n" +
+                    var s= "<div class=\"desk\"><img class=\"pic\" src=\"../static/image/room.png\" alt=\"#\"/>\n" +
                         "        <img class=\"t1\">\n" +
                         "        <img class=\"t2\">\n" +
                         "        <img class=\"t3\">\n" +
