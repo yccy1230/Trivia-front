@@ -4,50 +4,54 @@ div,img{ width:100%;}
     position: relative;
     width:360px;
     height:240px;
-    /*ckground-image:url("../image/QQ图片20171219230642.png");*/
-
+}
+.pic
+{
+    width:300px;
+    height:150px;
+    position:relative;
 }
 .t1
 {
     left:180px;
-    top:-170px;
+    top:0px;
     width:50px;
-    height:30px;
+    height:50px;
     float: left;
-    opacity: 0;
-    background-color:black;
+    opacity: 1;
+    background-color:white;
     position: relative;
 }
 .t2
 {
     left:50px;
-    top:-130px;
+    top:40px;
     width:50px;
-    height:30px;
+    height:50px;
     float: left;
-    opacity: 0.5;
-    background-color:black;
+    opacity: 1;
+    background-color:white;
     position: relative;
 }
 .t3
 {
     left:150px;
-    top:-140px;
+    top:40px;
     width:50px;
-    height:30px;
+    height:50px;
     float: left;
-    opacity: 0.5;
-    background-color:black;
+    opacity: 1;
+    background-color:white;
     position: relative;
 }
 .t4
 {
     left:30px;
-    top:-100px;
+    top:70px;
     width:50px;
-    height:30px;
+    height:50px;
     float: left;
-    opacity: 0.5;
-    background-color:black;
+    opacity: 1;
+    background-color:white;
     position: relative;
 }

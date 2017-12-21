@@ -25,8 +25,8 @@ function checklogin() {
         success: function (data) {
             console.log(data);
             if (data.resCode === "200") {
-                console.log("succ");
-                location.href="../static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/1.html";
+                location.href="hall.html";
+                //location.href="../static/lib/lufylegend.js-lufylegend-1.10.1/examples/demo/rpg/1.html";
             }
             else {
                 alert("请确认您输入的用户名或密码输入是否正确！");
