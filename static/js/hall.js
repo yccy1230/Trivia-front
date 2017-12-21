@@ -12,13 +12,13 @@ window.onload = function getTables() {
                 if (obj.length == 0) {
                     alert("目前暂无房间开放，请稍后尝试！");
                 } else {
-                    var s= "<div class=\"desk\"><img class=\"pic\" src=\"../static/image/room.png\" alt=\"#\"/>\n" +
+                    var s="<div><div class=\"desk\"><img class=\"pic\" src=\"../static/image/room.png\" alt=\"#\"/>\n" +
                         "        <img class=\"t1\">\n" +
                         "        <img class=\"t2\">\n" +
                         "        <img class=\"t3\">\n" +
                         "        <img class=\"t4\">\n" +
                         "        <span id=\"id\"></span>\n" +
-                        "    </div>";
+                        "    </div></div>";
                     var sHtml;
                     $.each(obj, function(index, item) {
                         sHtml = $(s);

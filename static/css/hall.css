@@ -1,23 +1,27 @@
 html, body{ margin:0; height:100%;width: 100% }
-div,img{ width:100%;}
+/*div,img{ width:100%;}*/
 body{
     background-image: url("../image/back.jpg");
     background-size:100% 100%;
     background-attachment: fixed;
     position: relative;
 }
+
 .desk{
-    z-index: 100;
+    float:left;
+    height:200px;
+    width:269px;
 }
 .pic{
     position: relative;
     width:200px;
     height:150px;
+
 }
 .t1
 {
-    left:80px;
-    top:-133px;
+    left:123px;
+    top:0px;
     width:40px;
     height:40px;
     float: left;
@@ -27,8 +31,8 @@ body{
 }
 .t2
 {
-    left:-36px;
-    top:-95px;
+    left:45px;
+    top:-99px;
     width:40px;
     height:40px;
     float: left;
@@ -38,8 +42,8 @@ body{
 }
 .t3
 {
-    left:73px;
-    top:-101px;
+    left:152px;
+    top:-98px;
     width:40px;
     height:40px;
     float: left;
@@ -49,8 +53,8 @@ body{
 }
 .t4
 {
-    left:-40px;
-    top:-61px;
+    left:40px;
+    top:-52px;
     width:40px;
     height:40px;
     float: left;
@@ -60,13 +64,14 @@ body{
 }
 
 #right{
-    position:relative;
-    width:24%;
+    position:fixed;
+    width:20%;
     height:1000px;
     background-color: rgba(30,28,47,0.4);
+    float:right;
+    left:975px;
+    top:49px;
 
-    left:866px;
-    top:-30px;
 
 }
 #desks{
@@ -75,9 +80,19 @@ body{
     width:80%
 
 }
+#id{
+    position:relative;
+   left:110px;
+    top:-33px;
+    width:100px;
+    height:100px;
+    display:block;
+
+
+}
 #player
 {
     position: relative;
-    height:50%;
+    height:30%;
     border-bottom:1px solid rgba(30,28,47,0.4);
 }

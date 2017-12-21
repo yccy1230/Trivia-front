@@ -15,6 +15,7 @@
 	position: relative;
 	width: 100%;
 	z-index: 9999;
+	left:0px;
 }
 /*************
 * MAIN NAV
@@ -24,7 +25,7 @@
 	margin: 0;
 	padding: 0;
 	display: none;
-
+	left:104px;
 	border-right-width: 1px;
 	border-right-style: solid;
 
@@ -37,12 +38,14 @@
 #zlight-nav:before,
 #zlight-nav:after {
   display: table;
+	left:104px;
   content: " ";
 }
 
 #zlight-main-nav:after,
 #zlight-nav:after {
   clear: both;
+	left:104px;
 }
 /*************
 * LI & A
@@ -155,7 +158,7 @@
 	border: none;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left:104px;;
 	opacity: 0;
 
 	width: 100%;
