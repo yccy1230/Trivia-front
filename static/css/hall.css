@@ -6,16 +6,15 @@ body{
     background-attachment: fixed;
     position: relative;
 }
-#desk{
+.desk{
     position: relative;
     width:200px;
     height:150px;
-
-    /*ckground-image:url("../image/QQ图片20171219230642.png");*/
-
 }
-.t
+.t1
 {
+    left:80px;
+    top:-133px;
     width:40px;
     height:40px;
     float: left;
@@ -23,42 +22,40 @@ body{
     background-color:black;
     position: relative;
 }
-#pl1
+.t2
 {
-    left:80px;
-    top:-133px;
-
-
-}
-#pl2{
     left:-36px;
     top:-95px;
+    width:40px;
+    height:40px;
+    float: left;
+    opacity: 0;
+    background-color:black;
+    position: relative;
 }
-#pl3
+.t3
 {
     left:73px;
     top:-101px;
+    width:40px;
+    height:40px;
+    float: left;
+    opacity: 0;
+    background-color:black;
+    position: relative;
 }
-#pl4
+.t4
 {
     left:-40px;
     top:-61px;
-
+    width:40px;
+    height:40px;
+    float: left;
+    opacity: 0;
+    background-color:black;
+    position: relative;
 }
 
-/* a:hover
- {
-     ;
-     background-color: rgba(50,255,255,0.4);
-     transition: transform 0.5s linear ,background-image 0s 0.25s;
-     background-size: cover;
-
- }
-a:visited
-{
-
- background-color: rgba(20,255,255,0.4);
-}*/
 #right{
     position:relative;
     width:24%;
@@ -69,7 +66,7 @@ a:visited
     top:-30px;
 
 }
-#left{
+#desks{
     float:left;
     position: relative;
     width:80%
