@@ -1,12 +1,11 @@
 html, body{ margin:0; height:100%;width: 100% }
-/*div,img{ width:100%;}*/
+div,img{ width:100%;}
 body{
     background-image: url("../image/back.jpg");
     background-size:100% 100%;
     background-attachment: fixed;
     position: relative;
 }
-
 .desk{
     float:left;
     height:200px;
@@ -16,11 +15,10 @@ body{
     position: relative;
     width:200px;
     height:150px;
-
 }
 .t1
 {
-    left:123px;
+    left:120px;
     top:0px;
     width:40px;
     height:40px;
@@ -42,7 +40,7 @@ body{
 }
 .t3
 {
-    left:152px;
+    left:153px;
     top:-98px;
     width:40px;
     height:40px;
