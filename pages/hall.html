@@ -14,72 +14,110 @@
     <link rel="stylesheet" href="../static/css/style.css" media="screen">
     <link rel="stylesheet" href="../static/css/zlight.menu.css" media="screen">
     <link rel="stylesheet" href="../static/css/hall.css" type="text/css" />
-    <script>
-        $(document).ready(function(){
-            $('#zlight-nav').zlightMenu();
-        });
-    </script>
+    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+    <link rel="stylesheet" tbootsnavype="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/bootsnav.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/1.css">
+    <style>
+        #navbar-menu{
+            background-color: rgba(255,255,255,0.4);
+            left:105px;
+            width:1140px;
+
+
+        }
+    </style>
 
 </head>
 
 <body>
 <div class="container" id="main">
 
-    <div class="row">
-        <div class="col-lg-12">
+    <div class="jq22-container">
 
-            <nav id="zlight-nav" style="width:1140px">
-                <ul id="zlight-main-nav">
-                    <li class=""  id="test" ><a href="#">Home</a></li>
-                    <li class="zlight-dropdown">
-                        <a href="#">Blog <i class="icon-angle-down"></i></a>
-                        <ul class="zlight-submenu" >
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li class="zlight-dropdown">
-                        <a href="#">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="zlight-submenu">
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
-                            <li class="zlight-dropdown">
-                                <a href="#">Dropdown <i class="icon-angle-right"></i></a>
-                                <ul class="zlight-submenu">
-                                    <li><a href="#">Link 1</a></li>
-                                    <li><a href="#">Link 2</a></li>
-                                    <li><a href="#">Link 3</a></li>
-                                    <li class="zlight-dropdown">
-                                        <a href="#">Dropdown <i class="icon-angle-right"></i></a>
-                                        <ul class="zlight-submenu">
-                                            <li><a href="#">Link 1</a></li>
-                                            <li><a href="#">Link 2</a></li>
-                                            <li><a href="#">Link 3</a></li>
-                                            <li><a href="#">Link 4</a></li>
+        <div class="demo" style="padding: 2em 0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="navbar navbar-default navbar-mobile bootsnav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbar-menu">
+                                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcodes</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
+                                                        <ul class="dropdown-menu multi-dropdown">
+                                                            <li><a href="http://www.jq22.com">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
                                         </ul>
                                     </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li class="dropdown">
+                                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sub Menu</a>
+                                                        <ul class="dropdown-menu multi-dropdown">
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                            <li><a href="#">Custom Menu</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                            <li><a href="#">Custom Menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="#">Link 5</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-                <!-- MOBILE NAV -->
-                <div id="zlight-mobile-nav">
-                    <span>Menu</span>
-                    <i class="icon-reorder zlight-icon"></i>
-                    <select></select>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </nav> <!-- nav close -->
-
+            </div>
         </div>
     </div>
     <div id="desks">
+      
+
     </div>
     <div id="right">
         <div id="player"></div>
@@ -87,7 +125,24 @@
     </div>
 </div>
 </body>
-<script>
-
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script type="text/javascript" src="../static/js/bootsnav.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var nav=$(".navbar-collapse"); //得到导航对象
+        var win=$(window); //得到窗口对象
+        var sc=$(document);//得到document文档对象。
+        win.scroll(function(){
+            if(sc.scrollTop()>=100){
+                nav.addClass("fixednav");
+                $(".navTmp").fadeIn();
+            }else{
+                nav.removeClass("fixednav");
+                $(".navTmp").fadeOut();
+            }
+        })
+    })
 </script>
+
 </html>
