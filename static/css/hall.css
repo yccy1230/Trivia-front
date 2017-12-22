@@ -1,11 +1,12 @@
 html, body{ margin:0; height:100%;width: 100% }
-/*div,img{ width:100%;}*/
+div,img{ width:100%;}
 body{
     background-image: url("../image/back.jpg");
     background-size:100% 100%;
     background-attachment: fixed;
     position: relative;
 }
+<<<<<<< HEAD
 
 body{ background-color:hsla(0,0%,18%,1.00)}
 .jq22-header h1{ text-align:center; font-size:28px; color:#939393}
@@ -76,6 +77,8 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     height:300px;
     background-color: white;
 }
+=======
+>>>>>>> 5d40342a43581a3408b5fc1c4e9ac0ebde3e0cc3
 .desk{
     float:left;
     height:200px;
@@ -92,11 +95,10 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     position: relative;
     width:200px;
     height:150px;
-
 }
 .t1
 {
-    left:123px;
+    left:120px;
     top:0px;
     width:40px;
     height:40px;
@@ -118,7 +120,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 }
 .t3
 {
-    left:152px;
+    left:153px;
     top:-98px;
     width:40px;
     height:40px;
