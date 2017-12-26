@@ -23,6 +23,7 @@ window.onload = function getTables() {
                     $.each(obj, function(index, item) {
                         sHtml = $(s);
                         $.each(item.playerList, function(index, item) {
+                            sHtml.find(".t"+ (index+1)+"_").attr("class","t"+(index+1)+"");
                             sHtml.find(".t"+ (index+1)+"").attr("src",item.headPic);
                         });
                         sHtml.find("#id").html("- " +item.roomName+" -");
