@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     position: relative;
 }
-<<<<<<< HEAD
+
 
 body{ background-color:hsla(0,0%,18%,1.00)}
 .jq22-header h1{ text-align:center; font-size:28px; color:#939393}
@@ -77,12 +77,13 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     height:300px;
     background-color: white;
 }
-=======
->>>>>>> 5d40342a43581a3408b5fc1c4e9ac0ebde3e0cc3
+
 .desk{
     float:left;
     height:200px;
     width:269px;
+    position:relative;;
+
 }
 .fixednav {
     position: fixed;
@@ -100,47 +101,91 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 {
     left:120px;
     top:0px;
-    width:40px;
-    height:40px;
+    width:43px;
+    height:43px;
     float: left;
     opacity: 1;
+    background-color:black;
+    position: relative;
+}
+.t1_
+{
+    left:120px;
+    top:0px;
+    width:43px;
+    height:43px;
+    float: left;
+    opacity: 0;
     background-color:black;
     position: relative;
 }
 .t2
 {
-    left:45px;
-    top:-99px;
-    width:40px;
-    height:40px;
+    left:40px;
+    top:-97px;
+    width:43px;
+    height:43px;
     float: left;
     opacity: 1;
     background-color:black;
     position: relative;
 }
+.t2_
+{
+    left:40px;
+    top:-97px;
+    width:43px;
+    height:43px;
+    float: left;
+    opacity: 0;
+    background-color:black;
+    position: relative;
+
+}
 .t3
 {
     left:153px;
-    top:-98px;
-    width:40px;
-    height:40px;
+    top:-95px;
+    width:43px;
+    height:43px;
     float: left;
     opacity: 1;
+    background-color:black;
+    position: relative;
+}
+.t3_
+{
+    left:153px;
+    top:-95px;
+    width:43px;
+    height:43px;
+    float: left;
+    opacity: 0;
     background-color:black;
     position: relative;
 }
 .t4
 {
-    left:40px;
-    top:-52px;
-    width:40px;
-    height:40px;
+    left:35px;
+    top:-53px;
+    width:43px;
+    height:43px;
     float: left;
     opacity: 1;
     background-color:black;
     position: relative;
 }
-
+.t4_
+{
+    left:35px;
+    top:-53px;
+    width:43px;
+    height:43px;
+    float: left;
+    opacity: 0;
+    background-color:black;
+    position: relative;
+}
 #right{
     position:fixed;
     width:20%;
