@@ -215,7 +215,45 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 }
 #player
 {
+
     position: relative;
     height:30%;
-    border-bottom:1px solid rgba(30,28,47,0.4);
+
+}
+#players{
+    width:230px;
+    height:230px;
+    position: relative;
+    left:6%;
+    top:15%;
+    color:white;
+    background-color:rgba(214, 233, 198, 0.2);
+}
+span{
+
+}
+.chatinf{
+    background-color: rgba(214, 233, 198, 0.2);
+    width: 230px;
+    height: 232px;
+    left: 7%;
+    position: relative;
+    top: 56px;
+}
+.input
+{
+    left: 0;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+}
+.chatbtn
+{
+    width: 43px;
+    position: absolute;
+    height: 25px;
+    /* right: -75%; */
+    top: 206px;
+    left: 180px;
+    font-size:10px;
 }
