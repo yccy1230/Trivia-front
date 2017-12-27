@@ -89,7 +89,7 @@ window.onload = function getTables() {
                 });
             }
             else {
-                alert("出错啦yhh！");
+                alert("出错啦！");
             }
         }
     });
