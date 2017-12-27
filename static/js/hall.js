@@ -12,7 +12,7 @@ window.onload = function getTables() {
                 if (obj.length == 0) {
                     alert("目前暂无房间开放，请稍后尝试！");
                 } else {
-                    var s="<div><div class=\"desk\"><img class=\"pic\" src=\"../static/image/room.png\" alt=\"#\"/>\n" +
+                    var s="<div><div class=\"desk\"><img class=\"pic\" src=\"../static/image/room.png\"  alt=\"#\"/>\n" +
                         "        <img class=\"t1_\">\n" +
                         "        <img class=\"t2_\">\n" +
                         "        <img class=\"t3_\">\n" +
@@ -22,6 +22,7 @@ window.onload = function getTables() {
                     var sHtml;
                     $.each(obj, function(index, item) {
                         sHtml = $(s);
+                        sHtml.find(".pic").attr("onclick","enterRoom("+item.id+")");
                         $.each(item.playerList, function(index, item) {
                             sHtml.find(".t"+ (index+1)+"_").attr("class","t"+(index+1)+"");
                             sHtml.find(".t"+ (index+1)+"").attr("src",item.headPic);
@@ -67,3 +68,24 @@ window.onload = function getTables() {
     });
 };
 
+function enterRoom(roomId){
+    console.log(roomId);
+    $.ajax({
+        url: "http://localhost/trivia/room/type/",
+        type: "GET",
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        data:{
+            isEnter:1,
+            roomId: roomId
+        },
+        success: function(data){
+            if (data.resCode === "200") {
+                location.href='../game/bin/index.html';
+            }else{
+                alert("您开不了房！");
+            }
+        }
+    });
+
+}
