@@ -161,7 +161,54 @@ function loadUserTable(){
         });
 
     });
+
+
 }
 
+$('#userAddBtn').click(function(){
+    layer.open({
+        id: 'addFrame',
+        type: 2,//弹出框类型
+        title: '增加用户',
+        shadeClose: false, //点击遮罩关闭层
+        area : ['40%' , '40%'],//弹出框大小
+        shift:1,//弹出框动画效果
+        content: 'userAdd.html'//发送一个请求，后台处理数据返回到一个html页面加载到layer弹出层中
+        ,btn: ['确认增加', '取消']
+        ,yes: function(index, layero){
+            //得到子页面id对应的数据
+            var body = layer.getChildFrame('body', index);
+            var account = body.find("#account").val();
+            var nickName = body.find("#nickName").val();
+            var password = body.find("#password").val();
+            $.ajax({
+                type: "POST",
+                url: "http://localhost/trivia/user/",
+                data: JSON.stringify({
+                    account : account,
+                    nickName : nickName,
+                    password : password
+                }),
+                contentType: "application/json; charset=utf-8",
+                dataType:"json",
+                success: function (data) {
+                    if (data.resCode === "200") {
+                        layer.alert("操作成功!");
+                        layer.close(index);
+                    }
+                    else {
+                        layer.alert("操作失败!");
+                        layer.close(index);
+                        table.reload('mainTable',{});
+                    }
+                }
+            })
+        }
+        ,btn2: function(index, layero){
+        }
+        ,cancel: function(){
+        }
+    });
+});
 
 
