@@ -46,9 +46,8 @@ window.onload = function getTables() {
             if (data.resCode === "200") {
                 console.log(data);
                 var obj = data.data;
-                var s="<tr>";
-                var sHtml;
                 $.each(obj, function(index, item) {
+                    var s="<tr>";
                     s+="<td>"+item.nickName+"</td>";
                     s+="<td>"+item.roomName+"</td>";
                     if(item.status === 0){
