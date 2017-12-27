@@ -1,5 +1,24 @@
 
 window.onload = function getTables() {
+    var websocket;
+    if('WebSocket' in window) {
+        console.log("此浏览器支持websocket");
+        websocket = new WebSocket("ws://localhost:8080/trivia/ws/hall/");
+    } else if('MozWebSocket' in window) {
+        alert("此浏览器只支持MozWebSocket");
+    } else {
+        alert("此浏览器只支持SockJS");
+    }
+    websocket.onopen = function(evnt) {
+        $("#tou").html("链接服务器成功!")
+    };
+    websocket.onmessage = function(evnt) {
+        $('#msg').html($("#msg").html() + "<br/>" + evnt.data);
+    };
+    websocket.onerror = function(evnt) {};
+    websocket.onclose = function(evnt) {
+        $("#tou").html("与服务器断开了链接!")
+    }
     $.ajax({
         type: "GET",
         url: "http://localhost/trivia/room/list/",
