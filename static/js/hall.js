@@ -13,7 +13,8 @@ window.onload = function getTables() {
         $("#tou").html("链接服务器成功!")
     };
     websocket.onmessage = function(evnt) {
-        $('#msg').html($("#msg").html() + "<br/>" + evnt.data);
+        $('#msg').html($("#msg").html() + "<br/>");
+        const data = JSON.parse(event.data);
         switch(data.type){
             case 0:
                 refreshPlayerList();
@@ -158,8 +159,8 @@ function refreshPlayerList(){
 }
 
 function getMessage(data){
-    var chat = "<div>"+data.user.nickName+" "+data.time+"\n"+"data.content</div>";
-    $("#chatinf").append(chat.html());
+    var chat = "<div>"+data.user.nickName+" "+data.gmtCreated+"\n"+data.content+"</div>";
+    $("#chatinf").append(chat);
 }
 
 function sendMessage(){
@@ -176,19 +177,19 @@ function sendMessage(){
     var s=myDate.getSeconds();
 
     var now = year+'-'+p(month)+"-"+p(date)+" "+p(h)+':'+p(m)+":"+p(s);
-    var message = $("#input").val();
+    var message = $("#inputText").val();
     $.ajax({
         url: "http://localhost/trivia/message/hall/all/",
         type: "GET",
         dataType: "json",
         contentType: "application/json; charset=utf-8",
         data:{
-            message:message
+            "message":message,
         },
         success: function(data){
             if (data.resCode === "200") {
                 var chat = "<div>我 "+ now + "\n" + message + "</div>";
-                $("#chatinf").append(chat.html());
+                $("#chatinf").append(chat);
             }else{
                 alert("您发不了消息！");
             }
