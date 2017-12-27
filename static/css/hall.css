@@ -187,13 +187,13 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     position: relative;
 }
 #right{
-    width: 15%;
+    width: 20%;
     height: 1000px;
     background-color: rgba(30,28,47,0.4);
-    float: right;
-    left: 1228px;
+    /* float: right; */
+    margin-left: 856px;
     top: 77px;
-    position: fixed;
+    position: fixed
 
 
 }
@@ -232,16 +232,22 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     color:white;
     background-color:rgba(214, 233, 198, 0.2);
 }
-span{
+.chat{
+    background-color: rgba(214, 233, 198, 0.2);
+    width: 230px;
+    height: 232px;
+    left: 6%;
+    position: relative;
+    top: 20px;
 
 }
 .chatinf{
     background-color: rgba(214, 233, 198, 0.2);
     width: 230px;
     height: 232px;
-    left: 7%;
+    
     position: relative;
-    top: 56px;
+
 }
 .input
 {
