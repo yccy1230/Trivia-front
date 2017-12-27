@@ -35,6 +35,35 @@ window.onload = function getTables() {
                 alert("出错啦！");
             }
         }
-    })
+    });
+
+    $.ajax({
+        type: "GET",
+        url: "http://localhost/trivia/user/list/",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function (data) {
+            if (data.resCode === "200") {
+                console.log(data);
+                var obj = data.data;
+                var s="<tr>";
+                var sHtml;
+                $.each(obj, function(index, item) {
+                    s+="<td>"+item.nickName+"</td>";
+                    s+="<td>"+item.roomName+"</td>";
+                    if(item.status === 0){
+                        s+="<td>等待中</td>";
+                    }else{
+                        s+="<td>游戏中</td>";
+                    }
+                    s+="<td>"+item.balance+"</td></tr>";
+                    $("#user-table").append(s);
+                });
+            }
+            else {
+                alert("出错啦！");
+            }
+        }
+    });
 };
 
