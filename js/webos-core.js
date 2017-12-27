@@ -1446,7 +1446,7 @@ appIcon_t1 = appIcon_t0.extend({
 			
 			 switch(title){
 			 	case "问答游戏":
-			 		var url ="http://localhost:8081/pages/login.html";
+			 		var url ="http://localhost/pages/login.html";
 			 		break;
 			 	case "天气":
 			 		var url ="https://tianqi.2345.com";

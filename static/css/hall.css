@@ -187,20 +187,21 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     position: relative;
 }
 #right{
-    position:fixed;
-    width:20%;
-    height:1000px;
+    width: 15%;
+    height: 1000px;
     background-color: rgba(30,28,47,0.4);
-    float:right;
-    left:975px;
-    top:77px;
+    float: right;
+    left: 1228px;
+    top: 77px;
+    position: fixed;
 
 
 }
 #desks{
     float:left;
     position: relative;
-    width:80%
+    width:80%;
+    margin-top:50px;
 
 }
 #id{
@@ -216,8 +217,10 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 #player
 {
 
+    margin-top: 80px;
     position: relative;
-    height:30%;
+    height: auto;
+    margin-left: 14px;
 
 }
 #players{
