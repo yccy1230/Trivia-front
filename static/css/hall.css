@@ -245,7 +245,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     background-color: rgba(214, 233, 198, 0.2);
     width: 230px;
     height: 232px;
-    
+
     position: relative;
 
 }
@@ -265,4 +265,27 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
     top: 206px;
     left: 180px;
     font-size:10px;
+}
+.pic1
+{
+    position: relative;
+    width: 50px;
+    border-radius:50px;
+    height: 50px;
+    display: block;
+    background-color: black;
+}
+.name{
+    position: relative;
+    width:50px;
+    height:10px;
+    margin-top:5px;
+
+}
+.gerenzhongxin{
+    float:right;
+    width: 70px;
+    height:70px;
+    display: block;
+   /* background-color: black;*/
 }
