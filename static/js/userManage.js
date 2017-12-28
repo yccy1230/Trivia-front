@@ -14,7 +14,7 @@ function loadUserTable(){
             ,cols: [[ //表头
                 {field: 'id', title: 'ID', width: 80, align: 'center', sort: 'true'},
                 {field: 'account', title: '用户名', width: 150, align: 'center'},
-                {field: 'nickName', title: '昵称', width: 100, align: 'center'},
+                {field: 'nickName', title: '昵称', width: 150, align: 'center'},
                 {field: 'headPic', title: '头像', width: 120, align: 'center', templet: '#picTpl'},
                 {field: 'userType', title: '用户类型', width: 100, align: 'center',templet:'#userTypeTpl'},
                 {field: 'status', title: '状态', width: 100, align: 'center',templet:'#statusTpl'},
@@ -171,7 +171,7 @@ $('#userAddBtn').click(function(){
         type: 2,//弹出框类型
         title: '增加用户',
         shadeClose: false, //点击遮罩关闭层
-        area : ['40%' , '40%'],//弹出框大小
+        area : ['40%' , '35%'],//弹出框大小
         shift:1,//弹出框动画效果
         content: 'userAdd.html'//发送一个请求，后台处理数据返回到一个html页面加载到layer弹出层中
         ,btn: ['确认增加', '取消']
