@@ -14,7 +14,7 @@ window.onload = function getTables() {
     };
     websocket.onmessage = function(evnt) {
         $('#msg').html($("#msg").html() + "<br/>");
-        const data = JSON.parse(event.data);
+        const data = JSON.parse(evnt.data);
         switch(data.type){
             case 0:
                 refreshPlayerList();
