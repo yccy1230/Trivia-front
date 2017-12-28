@@ -217,7 +217,7 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 #player
 {
 
-    margin-top: 80px;
+    margin-top: 37px;
     position: relative;
     height: auto;
     margin-left: 14px;
@@ -253,19 +253,31 @@ nav.navbar.bootsnav li.dropdown ul.dropdown-menu{
 {
     left: 0;
     position: absolute;
-    bottom: 0px;
+    bottom: 6px;
     display: block;
 }
 .chatbtn
 {
+    bottom: 6px;
     width: 43px;
     position: absolute;
     height: 25px;
     /* right: -75%; */
-    top: 206px;
-    left: 180px;
-    font-size:10px;
+    top: 204px;
+    left: 185px;
+    font-size: 10px;
+    background-color: #4d92d9;
+    border: none;
+    color: white;
+
 }
+.chatbtn:hover {
+    background-color:lightblue;
+    color:darkslategray;
+}
+/*.chatbtn :hover{*/
+    /*background-color:white;*/
+/*}*/
 .pic1
 {
     position: relative;

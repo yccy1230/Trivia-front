@@ -3,7 +3,7 @@ window.onload = function getTables() {
     var websocket;
     if('WebSocket' in window) {
         console.log("此浏览器支持websocket");
-        websocket = new WebSocket("ws://localhost:8080/trivia/ws/hall/");
+        websocket = new WebSocket("ws://115.159.35.11:8080/trivia/ws/hall/");
     } else if('MozWebSocket' in window) {
         alert("此浏览器只支持MozWebSocket");
     } else {

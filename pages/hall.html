@@ -51,8 +51,14 @@
                                 <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
                                     <li><a href="#">快速加入</a></li>
                                     <li><a href="#">个人中心</a></li>
+                   </ul>
+                                <div class="gerenzhongxin">
+
+
+
                                 </ul>
                                 <div class="gerenzhongxin">
+
                                     <div class="site-demo-button" id="layerDemo" style="margin-bottom: 0;border-radius:50px;width:50px;height:50px;">
                                         <div class="pic1" style="width:50px;height:50px"><div style="border-radius: 50px;width:50px;height:50px;" data-method="offset" data-type="auto"
                                                                                               class="layui-btn layui-btn-normal"></div></div>
@@ -60,9 +66,16 @@
                                     </div>
                                     <div class="name">dsf</div>
                                 </div>
-                            </div>
+
+
+
+                                        </ul>
+
+
+
                             </ul>
                         </nav>
+
                     </div>
                         </nav>
                 </div>
@@ -94,18 +107,21 @@
 
         <!--输入框-->
         <div class="chat">
-            <div class="chatinf" id="chatinf">
+            <div style="overflow-y:scroll;overflow-x:hidden;height: 200px;">
+            <div class="chatinf"  id="chatinf">
+            </div>
+            </div>
                 <div>
+                <input type="text" class="input" name="名称" value="" id="inputText"/>
+
+                    <button class="chatbtn" onclick="sendMessage()">发送</button>
+
                 </div>
 
-                    <input type="text" class="input" name="名称" value="" id="inputText"/>
-                <button class="chatbtn" onclick="sendMessage()">发送</button>
-            </div>
 
+
+</div>
         </div>
-    </div>
-</div>
-</div>
 </body>
 
 
