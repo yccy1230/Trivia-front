@@ -9,7 +9,7 @@ function loadUserTable(){
             elem: '#table'
             ,height: 'full-200'
             ,page: true //开启分页
-            ,url: 'http://localhost/trivia/user/'
+            ,url: '/trivia/user/'
             ,method: 'get'
             ,cols: [[ //表头
                 {field: 'id', title: 'ID', width: 80, align: 'center', sort: 'true'},
@@ -47,7 +47,7 @@ function loadUserTable(){
                 layer.confirm('确定删除该行吗？', function(index){
                     //向服务端发送删除指令
                     $.ajax({
-                        url: "http://localhost/trivia/user/"+data.id+"/",
+                        url: "/trivia/user/"+data.id+"/",
                         type: "DELETE",
                         dataType: "json",
                         success: function(data){
@@ -76,7 +76,7 @@ function loadUserTable(){
                         //layer.msg(layer.getChildFrame('body', index).find("#account").val());
                         //向服务端发送编辑指令
                         $.ajax({
-                            url: "http://localhost/trivia/user/modify/",
+                            url: "/trivia/user/modify/",
                             type: "POST",
                             dataType: "json",
                             contentType: "application/json; charset=utf-8",
@@ -183,7 +183,7 @@ $('#userAddBtn').click(function(){
             var password = body.find("#password").val();
             $.ajax({
                 type: "POST",
-                url: "http://localhost/trivia/user/",
+                url: "/trivia/user/",
                 data: JSON.stringify({
                     account : account,
                     nickName : nickName,

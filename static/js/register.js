@@ -6,7 +6,7 @@ function register() {
     $.ajax({
             type: "POST",
             /*url: "http://192.168.1.111:8080/trivia/session/login/",*/
-            url: "http://localhost/trivia/session/register/",
+            url: "/trivia/session/register/",
 
             data: JSON.stringify({
                 nickname: $("#nickname").val(),

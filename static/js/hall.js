@@ -27,10 +27,10 @@ window.onload = function getTables() {
     websocket.onerror = function(evnt) {};
     websocket.onclose = function(evnt) {
         $("#tou").html("与服务器断开了链接!")
-    }
+    };
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/room/list/",
+        url: "/trivia/room/list/",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -68,7 +68,7 @@ window.onload = function getTables() {
 
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/user/list/",
+        url: "/trivia/user/list/",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -98,12 +98,11 @@ window.onload = function getTables() {
 function enterRoom(roomId){
     console.log(roomId);
     $.ajax({
-        url: "http://localhost/trivia/room/type/",
+        url: "/trivia/room/enter/",
         type: "GET",
         dataType: "json",
         contentType: "application/json; charset=utf-8",
         data:{
-            isEnter:1,
             roomId: roomId
         },
         success: function(data){
@@ -121,7 +120,7 @@ function refreshPlayerList(){
     $("#desks").clear();
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/room/list/",
+        url: "/trivia/room/list/",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {
@@ -179,7 +178,7 @@ function sendMessage(){
     var now = year+'-'+p(month)+"-"+p(date)+" "+p(h)+':'+p(m)+":"+p(s);
     var message = $("#inputText").val();
     $.ajax({
-        url: "http://localhost/trivia/message/hall/all/",
+        url: "/trivia/message/hall/all/",
         type: "GET",
         dataType: "json",
         contentType: "application/json; charset=utf-8",
@@ -190,6 +189,7 @@ function sendMessage(){
             if (data.resCode === "200") {
                 var chat = "<div>我 "+ now + "\n" + message + "</div>";
                 $("#chatinf").append(chat);
+                $("#inputText").clear();
             }else{
                 alert("您发不了消息！");
             }

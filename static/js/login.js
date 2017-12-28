@@ -14,7 +14,7 @@ function checklogin() {
     $.ajax({
         type: "POST",
         /*url: "http://192.168.1.111:8080/trivia/session/login/",*/
-        url: "http://localhost/trivia/session/login/",
+        url: "/trivia/session/login/",
 
         data: JSON.stringify({
             account : $("#username").val(),
