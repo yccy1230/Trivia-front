@@ -82,7 +82,7 @@ function GameResultDialog()
 function initData(){
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/game/refresh/",
+        url: "/trivia/game/refresh/",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         success: function (body) {
@@ -102,7 +102,7 @@ function initDiceBtnListener(){
     setBtnVisibility(false,false,false);
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/game/roll/dice/",
+        url: "/trivia/game/roll/dice/",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         success: function (body) {
@@ -176,6 +176,7 @@ function refreshUI(message){
 function refreshOpeartionpanel(message){
     var stage = message.game.stage;
     var curPlayer,curPlayerName;
+    //获取当前玩家ID
     $.each(message.playerList,function(index,item){
         if(item.id === message.game.currentPlayerId) {
             curPlayer = item.userId;
@@ -214,10 +215,11 @@ function refreshOpeartionpanel(message){
             }
         break;
         case GAME_CHOOSE_TYPE:
+            setBtnVisibility(false,false,false);
             //选择问题类型
             $.ajax({
                 type: "GET",
-                url: "http://localhost/trivia/game/question/type/",
+                url: "/trivia/game/question/type/",
                 contentType: "application/json; charset=utf-8",
                 dataType:"json",
                 success: function (body) {
@@ -239,10 +241,11 @@ function refreshOpeartionpanel(message){
             });
             break;
         case GAME_ANSWERING_QUESTION:
+            setBtnVisibility(false,false,false);
             //获取问题中（回答中） UI数据包
             $.ajax({
                 type: "GET",
-                url: "http://localhost/trivia/game/question/",
+                url: "/trivia/game/question/",
                 contentType: "application/json; charset=utf-8",
                 dataType:"json",
                 data: {
@@ -461,6 +464,7 @@ function onDialogLoaded(){
     operationView.x = 1100;
     operationView.y = 0;
     operationView.btnReady.on(Event.CLICK, this, btnReadyClicked);
+    operationView.btnExit.on(Event.CLICK, this, btnExitClicked);
     Laya.stage.addChild(operationView);
     createDice();
     initDialogs();
@@ -475,6 +479,25 @@ function initDialogs(){
     msgDialog.btnMConfirm.on(Event.CLICK, this, btnMConfirmClicked);
 }
 
+function btnExitClicked(){
+    $.ajax({
+        type: "POST",
+        url: "/trivia/room/exit/",
+        contentType: "application/json; charset=utf-8",
+        dataType:"json",
+        success: function (body) {
+            if (body.resCode !== "200") {
+                msgDialog.msgContent.text = body.resMsg;
+                msgDialog.show();
+            }else{
+                msgDialog.msgContent.text = body.resMsg;
+                msgDialog.show();
+                location.href = "../../pages/hall.html"
+            }
+        }
+    });
+}
+
 function btnMConfirmClicked(){
     msgDialog.close();
 }
@@ -487,7 +510,7 @@ function btnQConfirmClicked(){
     questionDialog.close();
     $.ajax({
         type: "POST",
-        url: "http://localhost/trivia/game/question/answer/",
+        url: "/trivia/game/question/answer/",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         data: JSON.stringify(
@@ -495,7 +518,7 @@ function btnQConfirmClicked(){
         ),
         success: function (body) {
             if (body.resCode !== "200") {
-                msgDialog.msgContent.text = body.retMsg+"请重新尝试！";
+                msgDialog.msgContent.text = body.resMsg+"请重新尝试！";
                 questionDialog.show();
                 msgDialog.show();
             }
@@ -510,7 +533,7 @@ function btnTConfirmClicked(){
     questionTypeDialog.close();
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/game/question/choose/",
+        url: "/trivia/game/question/choose/",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         data: {
@@ -518,7 +541,7 @@ function btnTConfirmClicked(){
         },
         success: function (body) {
             if (body.resCode !== "200") {
-                msgDialog.msgContent.text = body.retMsg+"请更换选项尝试！";
+                msgDialog.msgContent.text = body.resMsg+"请更换选项尝试！";
                 questionTypeDialog.show();
                 msgDialog.show();
             }
@@ -532,7 +555,7 @@ function btnTConfirmClicked(){
 function btnReadyClicked(){
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/game/ready/1",
+        url: "/trivia/game/ready/1",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         success: function (body) {
@@ -542,7 +565,7 @@ function btnReadyClicked(){
                 operationView.btnReady.on(Event.CLICK, this, btnCancelReadyClicked);
             }
             else {
-                msgDialog.msgContent.text = body.retMsg;
+                msgDialog.msgContent.text = body.resMsg;
                 msgDialog.show();
             }
         }
@@ -556,7 +579,7 @@ function btnCancelReadyClicked(){
     operationView.btnReady.click
     $.ajax({
         type: "GET",
-        url: "http://localhost/trivia/game/ready/0",
+        url: "/trivia/game/ready/0",
         contentType: "application/json; charset=utf-8",
         dataType:"json",
         success: function (body) {
@@ -566,7 +589,7 @@ function btnCancelReadyClicked(){
                 operationView.btnReady.on(Event.CLICK, this, btnReadyClicked);
             }
             else {
-                msgDialog.msgContent.text = body.retMsg;
+                msgDialog.msgContent.text = body.resMsg;
                 msgDialog.show();
             }
         }
