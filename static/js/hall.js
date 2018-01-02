@@ -200,3 +200,19 @@ function sendMessage(){
 function p(s) {
     return s < 10 ? '0' + s: s;
 }
+
+function quickJoinGame(){
+    $.ajax({
+        url: "/trivia/game/qucikJoin/",
+        type: "POST",
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        success: function(data){
+            if (data.resCode === "200") {
+                location.href='../game/bin/index.html';
+            }else{
+                alert("快速加入游戏失败！");
+            }
+        }
+    });   
+}

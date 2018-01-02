@@ -7,6 +7,8 @@
 * @xiaofan
 * @2012.3.9 
 */
+var frameHight;
+var frameWidth;
 
 
 $(function() {
@@ -323,6 +325,8 @@ Deskpanel = function(me){
 				wh = $(window).height();//浏览器高				
 			me.width = ww-me.spaceRight -me.spaceLeft;//容器宽
 			me.height =wh-me.spaceTop - me.spaceBottom;//容器高 
+			frameWidth = ww-me.spaceRight -me.spaceLeft;
+			frameHight = me.height+me.spaceTop;
 			var desktopContainer = me.desktopsContainer.find(".desktopContainer");
 			var appContainer = desktopContainer.find(".appListContainer");
 			
@@ -1446,7 +1450,7 @@ appIcon_t1 = appIcon_t0.extend({
 			
 			 switch(title){
 			 	case "问答游戏":
-			 		var url ="/pages/login.html";
+			 		var url ="pages/login.html";
 			 		break;
 			 	case "天气":
 			 		var url ="https://tianqi.2345.com";
@@ -1470,7 +1474,7 @@ appIcon_t1 = appIcon_t0.extend({
 			 		var url ="http://www.baidu.com"	;
 			 }
 			 var icon =_this.find("img").attr("src").split("/")[1];			
-			 Windows.openApp(id,title,url,icon,700,500);	
+			 Windows.openApp(id,title,url,icon,frameWidth,frameHight);	
 		});
 	}
 });
